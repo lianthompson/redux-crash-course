@@ -3,10 +3,9 @@ import logo from './logo.svg';
 import Posts from './components/Posts';
 import PostForm from './components/Postform';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
 import './App.css';
+import store from './store';
 
-const store = createStore(() => [], {}, applyMiddleware());
 
 export default class App extends React.Component {
   render() {
