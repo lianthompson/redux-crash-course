@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Posts from './components/Posts';
 import PostForm from './components/Postform';
 import { Provider } from 'react-redux';
